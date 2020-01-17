@@ -1,0 +1,67 @@
+.text__buttons .purchase {
+	text-transform: uppercase;
+	background-color: var(--red);
+	margin-right: 0.25em;
+}
+.text__buttons .learn {
+	padding: 18px 26px 18px 36px;
+	text-transform: uppercase;
+	background-color: var(--yellow);
+	margin-left: 0.25em;
+}
+.soc-network--twitter {
+	background-color: var(--twitter-bg);
+}
+.soc-network--facebook {
+	background-color: var(--facebook-bg);
+}
+.soc-network--dribbble {
+	background-color: var(--dribbble-bg);
+}
+.soc-network--pinterest {
+	background-color: var(--pinterest-bg);
+}
+.soc-network--twitter:hover {
+	background-color: #3ca4c9;
+}
+.soc-network--facebook:hover {
+	background-color: #304a7f;
+}
+.soc-network--dribbble:hover {
+	background-color: #d25081;
+}
+.soc-network--pinterest:hover {
+	background-color: #ce2828;
+}
+.price__service.price__service--red > span + span{
+	background-color: var(--light-red);
+}
+.price__service.price__service--red h4 {
+	background-color: var(--red);
+}
+.price__service.price__service--red .service__cost{
+	padding: 1.178em 0.953em;
+	background-color: #b95752;
+}
+.price__service.price__service--red a {
+	background-color: var(--red);
+}
+.price__service.price__service--blue .service__cost{
+	padding: 1.178em 0.953em;
+	background-color: #457b87;
+}
+.price__service.price__service--blue h4 {
+	background-color: var(--blue);
+}
+.price__service.price__service--blue > span + span {
+	background-color: var(--light-blue);
+}
+.price__service.price__service--blue a {
+	background-color: #579aa9;
+}
+.link--red {
+	background-color: var(--light-red);
+}
+.link--blue {
+	background-color: var(--light-blue);
+}
